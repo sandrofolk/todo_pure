@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ToDo</title>
+
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body onload="showTodo()">
+        <h1>ToDo Sem Framework</h1>
+
+        <div class="todo">
+            <span class="todo-title">Tarefas</span>
+            <hr>
+            <input type="text" id="newTodo" placeholder="Nova Tarefa">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tarefa</th>
+                        <th>Opção</th>
+                    </tr>
+                </thead>
+                <tbody id="list">
+                    <!--content-->
+                </tbody>
+            </table>
+        </div>
+
+        <footer>
+            Criado por <b>Alessandro de Lima Folk</b>, &copy; 2018.
+        </footer>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+html {
+    text-align: center;
+    background: #3B7CA8;
+    font-family: "Arial Black";
+}
+
+@media (min-width: 768px) {
+    .todo {
+        max-width: 600px;
+    }
+}
+
+.todo {
+    margin: auto;
+    border-radius: 5px;
+    /*background-color: #ffffff;*/
+    background: #f9fbfc;
+    border: 3px solid #e1e6ea;
+    padding: 10px;
+}
+
+.todo-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.todo>table {
+    border-style: dotted;
+    width: 100%;
+}
+
+th {
+    text-decoration: underline;
+}
+
+.todo>table>tbody {
+    text-align: left;
+}
+
+tbody>tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.todo-btn-remove {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #ff0000;
+    opacity: 0.7;
+}
+
+.todo-btn-remove:hover {
+    opacity: 1;
+}
+
+#newTodo {
+    width: 90%;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
